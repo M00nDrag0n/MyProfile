@@ -7,6 +7,9 @@ body {
   border-width: 20px;
 }
 
+/* media type="all, max-width []px;" */
+
+
 .jumbotron {
   border-color: #4935a1;
   border-width: 10px;
@@ -17,4 +20,59 @@ body {
   border-color: #4d0180;
   border-width: 10px;
   border-style: solid;
+  min-width: 1200px;
+  min-height: 300px;
+  max-width: 2000px;
+  max-height: 800px;
+
+}
+/*
+ol {
+padding-right: 0px;
+margin-right: 0px;
+}
+
+li {
+  move "1", "2", etc closer to links so it doesn't look so weird
+  padding-right: 600px;
+} */
+
+a:hover {
+  color: #15008a;
+  border-color: #0402a3;
+  border-style: solid;
+  border-width: 2px;
+  padding: 4px;
+  background-image: radial-gradient( #4c4885, #dbf6ff, #e8fbff, #b1bbbd, #4c4885, #dbf6ff, #4c4885)
+}
+
+.lists {
+  /* float: center;
+  width: 50%; */
+}
+
+#projects1 {
+  float: left;
+  width: 50%;
+}
+
+
+#projects2 {
+  float: left;
+  width: 50%;
+}
+
+#projects3 {
+  float: left;
+  width: 80%;
+}
+
+#projects4 {
+  float: left;
+  width: 50%;
+}
+
+#projects5 {
+  float: left;
+  width: 50%;
 }
